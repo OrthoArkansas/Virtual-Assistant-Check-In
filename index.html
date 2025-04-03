@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrthoArkansas Virtual Assistant Check-in</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://res.cdn.office.net/teams-js/2.0.0/js/MicrosoftTeams.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Welcome Screen Container -->
+    <div class="container" id="welcome-screen">
+        <img class="logo" src="images/OrthoArkansas Logo.png" alt="logo">
+        <h1>Welcome to OrthoArkansas!</h1>
+        <p>Please click the button below to connect with a Patient Service Representative</p>
+        <button class="btn" id="start-call">Start Virtual Check-In</button>
+    </div>
+
+    <!-- Call Screen Container -->
+    <div class="container hidden" id="call-screen">
+        <img class="logo" src="images/OrthoArkansas Logo.png" alt="logo">
+        <h1>Connecting you with a representative...</h1>
+
+        <!-- Embedded Teams Section -->
+        <div class="teams-container" id="teams-meeting">
+            <!-- Add teams SDK or iframe here -->
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
