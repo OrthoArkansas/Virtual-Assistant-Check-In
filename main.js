@@ -38,7 +38,7 @@ function initializeTeamsDirectGuestJoin() {
     // const teamsJoinUrl = `https://teams.microsoft.com/l/meetup-join/${threadId}@thread.v2/0?context={"Tid":"${tenantId}","Oid":"${organizerId}","lm":"0","p":"0"}`;
 
     // Alternative: If you already have a full meeting URL, you can use it directly
-    const teamsJoinUrl = "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGE2NTJmZWItMTA5Zi00NDM4LThiNmQtNzM5MDFmOTRmMjUw%40thread.v2/0?context=%7b%22Tid%22%3a%2204ac9f8b-be1f-4450-b835-45a607d5f258%22%2c%22Oid%22%3a%22740df769-6cf7-4ee8-9f12-fb0b96244668%22%7d";
+    const teamsJoinUrl = "";
 
     // Create an iframe for the Teams meeting
     const teamsFrame = document.createElement('iframe');
